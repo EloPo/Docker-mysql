@@ -1,6 +1,6 @@
 FROM debian:9.0
 
-LABEL maintainer="eloisa.potrich@rivendel.com.br"
+LABEL maintainer="Eloisa Potrich"
 
 RUN apt-get update && apt-get install -y mysql-server && apt-get clean
 
